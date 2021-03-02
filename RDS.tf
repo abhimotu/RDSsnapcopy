@@ -3,6 +3,6 @@ provider "aws" {
   region     = var.region
 }
 resource "aws_db_snapshot" "RDSSnap" {
-  db_instance_identifier = var.source_RDS
-  db_snapshot_identifier = var.Snapname
+  db_instance_identifier = database-1
+  db_snapshot_identifier = database-2
 }
