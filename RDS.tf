@@ -1,5 +1,13 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 2.0"
+    }
+  }
+}
+
 provider "aws" {
-  version = "~> 2.0"
   region     = var.region
 }
 resource "aws_db_snapshot" "RDSSnap" {
