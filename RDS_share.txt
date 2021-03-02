@@ -1,0 +1,1 @@
+aws rds modify-db-snapshot-attribute --db-snapshot-identifier database-3 --attribute-name restore --values-to-add 666016111642

@@ -1,0 +1,1 @@
+aws rds copy-db-snapshot --source-db-snapshot-identifier database-2 --target-db-snapshot-identifier database-3 --kms-key-id arn:aws:kms:ap-south-1:615817570482:key/79c31096-33c3-40d8-bfcf-9d1e6d4e7a17 --source-region ap-south-1
